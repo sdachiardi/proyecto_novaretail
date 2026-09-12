@@ -1,15 +1,19 @@
 # NovaRetail+: qué comportamientos se asocian con el ingreso del cliente
 
+En resumen, este proyecto es descubrir qué comportamientos hacen que un cliente de 
+NovaRetail+ genere más ingreso, sin caer en la trampa de confundir que dos cosas se 
+muevan juntas con que una cause la otra.
+
+## Visuales
+<img width="1056" height="787" alt="Matriz de Correlación" src="https://github.com/user-attachments/assets/6112cc97-a492-45cf-8ff9-1cbd91390478" />
+<img width="967" height="627" alt="Publicidad dirigida vs visitas mensuales" src="https://github.com/user-attachments/assets/f15995dd-85f7-4167-860b-8bdde3bc1edb" />
+
 ## Desafío
 NovaRetail+, una plataforma de comercio electrónico en Latinoamérica con millones de 
 usuarios, necesitaba que el equipo de Crecimiento y Retención entendiera qué factores 
 del comportamiento del cliente están más fuertemente asociados con el ingreso anual 
 que genera, sin caer en interpretaciones causales que no estuvieran respaldadas por 
 los datos.
-
-En resumen, este proyecto es descubrir qué comportamientos hacen que un cliente de 
-NovaRetail+ genere más ingreso, sin caer en la trampa de confundir que dos cosas se 
-muevan juntas con que una cause la otra.
 
 ## Datos
 Dataset de comportamiento de clientes de NovaRetail+ durante 2024, con 15,000 
@@ -34,7 +38,7 @@ región).
 
 Lo más particular de este proyecto fue aprender a identificar qué correlaciones, 
 aunque muy altas, no valía la pena explorar a fondo porque eran resultados 
-esperables, como que más compras generen más ingresos. En vez de eso, la atención se 
+esperables, como que más compras generen más ingreso. En vez de eso, la atención se 
 centró en relaciones menos evidentes que sí aportaban valor analítico. También fue 
 la primera vez que se aplicaron varios tipos de correlación en un mismo análisis, y 
 entender que cada uno está diseñado para un tipo de relación distinto fue clave 
@@ -62,10 +66,6 @@ naturalmente los que más visitan.
    con mayor riesgo de irse.
 3. Calcular la tasa de conversión de visitas a compras por segmento, para explorar 
    qué factores se relacionan con tasas de conversión más altas.
-
-## Visuales
-<img width="1056" height="787" alt="Matriz de Correlación" src="https://github.com/user-attachments/assets/6112cc97-a492-45cf-8ff9-1cbd91390478" />
-<img width="967" height="627" alt="Publicidad dirigida vs visitas mensuales" src="https://github.com/user-attachments/assets/f15995dd-85f7-4167-860b-8bdde3bc1edb" />
 
 ## Entregable
 Notebook: https://github.com/sdachiardi/proyecto_novaretail/blob/main/analisis_novaretail.ipynb
